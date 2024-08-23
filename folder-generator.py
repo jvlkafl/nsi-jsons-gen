@@ -25,8 +25,8 @@ def copy_folders_with_names(source_folder, target_folder, folder_names):
         print(f"Error: {e}")
 
 def main():
-    source_folder = r"C:\Users\Lenovo\Desktop\jsons\NSI template"
-    target_folder = r"C:\Users\Lenovo\Desktop\jsons\p13_f"
+    source_folder = r"C:\Users\Lenovo\Desktop\jsons\NSI template" ## change to your own
+    target_folder = r"C:\Users\Lenovo\Desktop\jsons\p13_f" ## change to your own
 
     problem = 13
     bias_values = [-6, -2, -1.5, -1, -0.5, -0.1, -0.01, 0, 0.01, 0.1, 0.5, 1, 1.5, 2, 6]

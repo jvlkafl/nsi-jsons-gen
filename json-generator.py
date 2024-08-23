@@ -2,8 +2,8 @@ import json
 import os
 
 # list of parameters
-ahln = [5.0, 2.0, 1.0, 0.0]
-bias = [-6.0, -1.0, 0.0, 1.0, 6.0]
+ahln = [5.0, 2.0, 1.0, 0.0] # ahln list
+bias = [-6.0, -1.0, 0.0, 1.0, 6.0] #biases list
 problem =                   # number of the problem
 y =                         # training set number
 output_path = f"./y={y}"    #path to separate folder
